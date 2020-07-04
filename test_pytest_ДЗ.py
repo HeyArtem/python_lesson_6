@@ -155,4 +155,4 @@ print(f(sps_list, z=100))
 
 def test_f():
 
-    assert f(sps_list, z=100) == (int(len(100))) # на выходе фу-ции должно быть 500, но я спец-но пишу 400
+    assert f(sps_list, z=100) == (int(len(100)))
