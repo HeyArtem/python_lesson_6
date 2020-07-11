@@ -52,7 +52,7 @@ from br_1_ДЗ_function import isPrime
 
 def test_isPrime():  # !!! pytest ругается на этот тест!!!, но если я проверяю через командную строку, то ошибки НЕТ???
     n = 20
-    assert test_isPrime(n) == 'Составное число'
+    assert isPrime(n) == 'Составное число'
 
 
 
